@@ -7,3 +7,9 @@
     <input type ="text" name = "name"/> <br>
     <input type = "submit" />
 </form>
+
+{% for product in products %}
+
+<p>{{ product.title }}</p>
+
+{% endfor %}
